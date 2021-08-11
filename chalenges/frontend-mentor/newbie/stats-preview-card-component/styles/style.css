@@ -53,7 +53,7 @@ main {
 
 .card img {
   width: 100%;
-  opacity: 0.5;
+  mix-blend-mode: multiply;
   display: block;
   border-radius: inherit;
   content: url('../images/image-header-mobile.jpg');
