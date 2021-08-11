@@ -24,10 +24,10 @@ Users should be able to:
 
 ### Screenshots
 
-<div style="text-align: center;">
+<p align="center">
   <img src="./screenshots/screenshot-desktop.png">
   <img src="./screenshots/screenshot-mobile.png">
-</div>
+</p>
 
 ### Links
 
@@ -48,7 +48,7 @@ Users should be able to:
 
 This project was a great opportunity to use flexbox to build a layout.
 
-I also have learned how to use CSS variables.
+I also have learned how to use CSS variables and about the `mix-blend-mode` property.
 
 ### Useful resources
 
