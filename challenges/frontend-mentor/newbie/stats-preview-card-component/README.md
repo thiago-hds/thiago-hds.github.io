@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
+- Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-solution-using-css-flexbox-DH0njNpyp](https://www.frontendmentor.io/solutions/mobile-first-solution-using-css-flexbox-DH0njNpyp)
 
 - Live Site URL: [https://thiago-hds.github.io/stats-preview-card-component/](https://thiago-hds.github.io/stats-preview-card-component/)
 
