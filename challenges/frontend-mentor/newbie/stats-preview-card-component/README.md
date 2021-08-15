@@ -33,7 +33,7 @@ Users should be able to:
 
 - Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-solution-using-css-flexbox-DH0njNpyp](https://www.frontendmentor.io/solutions/mobile-first-solution-using-css-flexbox-DH0njNpyp)
 
-- Live Site URL: [https://thiago-hds.github.io/stats-preview-card-component/](https://thiago-hds.github.io/stats-preview-card-component/)
+- Live Site URL: [https://thiago-hds.github.io/challenges/frontend-mentor/newbie/stats-preview-card-component/index.html](https://thiago-hds.github.io/challenges/frontend-mentor/newbie/stats-preview-card-component/index.html)
 
 ## My process
 
