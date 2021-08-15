@@ -25,13 +25,13 @@ Users should be able to:
 
 <p align="center">
   <img src="./screenshots/screenshot-desktop.png">
-  <img src="./screenshots/screenshot-mobile.png">
+  <img src="./screenshots/screenshot-mobile.png" height="500px">
 </p>
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-solution-using-css-flexbox-WQ9bFBbBG](https://www.frontendmentor.io/solutions/mobile-first-solution-using-css-flexbox-WQ9bFBbBG)
+- Live Site URL: [https://thiago-hds.github.io/challenges/frontend-mentor/newbie/3-column-preview-card-component/](https://thiago-hds.github.io/challenges/frontend-mentor/newbie/3-column-preview-card-component/)
 
 ## My process
 
