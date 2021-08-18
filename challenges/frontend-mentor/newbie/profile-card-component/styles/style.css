@@ -1,11 +1,10 @@
-/* -- general styles -- */
+/* ---------- general styles ---------- */
 :root {
-	--profile-card-header-bg-color: hsl(185, 75%, 39%);
-	--profile-card-content-bg-color: white;
-	--profile-card-heading-font-color: hsl(229, 23%, 23%);
-	--profile-card-regular-font-color: hsl(227, 10%, 46%);
+	--primary-color: hsl(185, 75%, 39%);
+	--secondary-color: white;
+	--accent-font-color: hsl(229, 23%, 23%);
+	--regular-font-color: hsl(227, 10%, 46%);
 	--profile-card-stats-rule-color: hsl(0, 0%, 59%);
-	font-size: 10px;
 }
 
 * {
@@ -14,84 +13,119 @@
 	padding: 0;
 }
 
+/* ---------- typography ---------- */
+
+html {
+	font-size: 10px;
+}
+
+.profile {
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+p {
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+h1,
+.profile-stats p:first-child {
+	color: var(--accent-font-color);
+	font-size: 2em;
+	font-weight: 700;
+}
+
+h1 .age {
+	font-weight: 400;
+}
+
+.profile-stats p:last-child {
+	letter-spacing: 0.2rem;
+}
+
+.profile-main,
+.profile-stats div {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+footer a {
+	color: hsl(228, 45%, 44%);
+}
+
+/* ---------- layout ---------- */
+
 body {
-	background: var(--profile-card-header-bg-color);
 	height: 100vh;
 	margin: 8px;
 }
 
-.profile-card {
-	border-radius: 12px;
-	font-family: 'Kumbh Sans', sans-serif;
-	color: var(--profile-card-regular-font-color);
-	background-color: var(--profile-card-content-bg-color);
-	overflow: hidden;
-	margin: 0 auto;
+.profile {
 	max-width: 35rem;
+	border-radius: 12px;
+	margin: 0 auto;
+	overflow: hidden;
 }
 
-/* -- profile card header -- */
-.profile-header {
-	background: red; /* TODO: update to gradient */
-	min-height: 15rem;
+.profile-top {
 	position: relative;
+	min-height: 15rem;
 	margin-bottom: 6rem;
 }
 
-.profile-header .profile-picture {
+.profile-top .picture {
 	position: absolute;
 	bottom: 0;
 	left: 50%;
 	transform: translate(-50%, 50%);
 }
 
-/* -- profile picture -- */
-.profile-picture {
-	height: 10rem;
-	width: 10rem;
-
-	border: 5px solid white;
-	border-radius: 50%;
-	overflow: hidden;
+.profile-main {
+	border-bottom: 1px solid #000;
 }
 
-.profile-picture img {
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-}
-
-.profile-card h1 {
-	text-align: center;
-}
-
-/* -- profile stats --  */
 .profile-stats {
 	display: flex;
 	justify-content: space-around;
 	padding: 2rem 0;
-	border-top: 1px solid var(--profile-card-stats-rule-color);
 }
 
-.profile-stats div {
-	text-align: center;
-}
-
-.profile-stats span {
-	font-size: 1.8rem;
-	font-weight: 700;
-	color: var(--profile-card-heading-font-color);
-}
-
-.profile-stats p {
+.profile-stats p:last-child {
 	margin-top: 0.5rem;
-	letter-spacing: 0.2rem;
 }
 
-footer {
-	font-size: 11px;
-	text-align: center;
+/* ---------- appearance ---------- */
+body {
+	background-image: url('../images/bg-pattern-top.svg'),
+		url('../images/bg-pattern-bottom.svg');
+	background-repeat: no-repeat;
+	/* background-size: 100%; */
+	background-position: top left, bottom right;
+	background-color: var(--primary-color);
 }
-footer a {
-	color: hsl(228, 45%, 44%);
+.profile {
+	background: var(--secondary-color);
+}
+.profile-top {
+	background: url('../images/bg-pattern-card.svg');
+}
+
+/* ---------- components  ---------- */
+
+.picture {
+	height: 10rem;
+	width: 10rem;
+	background-color: var(--secondary-color);
+	border: 5px solid var(--secondary-color);
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.picture img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
